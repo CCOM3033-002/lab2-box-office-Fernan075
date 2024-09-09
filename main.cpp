@@ -44,13 +44,13 @@ distributor = total_gross - net_box;
 
 //Aqui se despliega los totales de cada variable 
      
-cout << "\nNombre de Pelicula:" << setw(13) << '\"' << nombre_pelicula << '\"' << endl ;
+cout << "\nMovie Name:" << setw(13) << '\"' << nombre_pelicula << '\"' << endl ;
 
 cout << setprecision(2) << fixed ;
 
-cout << "Total de Boletos de Adulto:" << setw(10) << ticket_adulto << endl ;
+cout << "Adult Ticketss Sold:" << setw(10) << ticket_adulto << endl ;
      
-cout << "Total de Boletos de Niños:" << setw(11) << ticket_kid << endl ;
+cout << "Child Tickets Sold:" << setw(11) << ticket_kid << endl ;
 
 cout << "Gross Box Office Profit:" << setw(8) << '$' << setw(8) << total_gross << endl ;
      
